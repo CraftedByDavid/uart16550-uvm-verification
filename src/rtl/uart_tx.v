@@ -1,27 +1,4 @@
-/********************************************************************************************
-Copyright 2024 - Maven Silicon Softech Pvt Ltd.  
-www.maven-silicon.com
 
-All Rights Reserved.
-
-This source code is an unpublished work belongs to Maven Silicon Softech Pvt Ltd.
-It is not to be shared with or used by any third parties who have not enrolled for our paid 
-training courses or received any written authorization from Maven Silicon.
-
-Filename                :       uart_tx.v   
-
-module Name             :       uart_tx
-
-Description             :       uart_tx module is designed to manage UART data transmission, 
-	                        utilizing a FIFO buffer for data storage and a Finite State Machine
-				to handle serial transmission.
-
-Author Name             :       Naveen
-
-Support e-mail          :       For any queries, reach out to us on "techsupport_vm@maven-silicon.com" 
-
-Version                 :       1.0
-*********************************************************************************************/
 
  module uart_tx (
   		input PCLK,
