@@ -442,11 +442,6 @@ Number of fail transactions  :  0
 
 ---
 
-## 📄 License
-
-RTL design and testbench structure based on training material from [Maven Silicon](https://www.maven-silicon.com). Extended, verified, and documented as part of a personal learning project.
-
----
 
 <div align="center">
   <b>Built with ❤️ using SystemVerilog + UVM 1.2</b><br>
