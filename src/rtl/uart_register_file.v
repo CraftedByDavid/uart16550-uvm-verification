@@ -1,27 +1,4 @@
-/********************************************************************************************
-Copyright 2024 - Maven Silicon Softech Pvt Ltd.  
-www.maven-silicon.com
 
-All Rights Reserved.
-
-This source code is an unpublished work belongs to Maven Silicon Softech Pvt Ltd.
-It is not to be shared with or used by any third parties who have not enrolled for our paid 
-training courses or received any written authorization from Maven Silicon.
-
-Filename                :       uart_register_file.v   
-
-module Name             :       uart_register_file
-
-Description             :       UART register file interfaced with an APB (Advanced Peripheral Bus). 
-	                        It manages control and status registers, handles data transmission 
-				and reception, and generates interrupts for various UART events.
-
-Author Name             :       Naveen
-
-Support e-mail          :       For any queries, reach out to us on "techsupport_vm@maven-silicon.com" 
-
-Version                 :       1.0
-*********************************************************************************************/
  module uart_register_file (
 			   input PCLK,
                            input PRESETn,
