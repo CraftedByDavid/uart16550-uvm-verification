@@ -1,25 +1,4 @@
-/********************************************************************************************
-Copyright 2024 - Maven Silicon Softech Pvt Ltd.  
-www.maven-silicon.com
 
-All Rights Reserved.
-
-This source code is an unpublished work belongs to Maven Silicon Softech Pvt Ltd.
-It is not to be shared with or used by any third parties who have not enrolled for our paid 
-training courses or received any written authorization from Maven Silicon.
-
-Filename                :       uart_rx.v   
-
-module Name             :       uart_rx
-
-Description             :       uart_rx module is designed to receive serial data using UART protocol.
-
-Author Name             :       Naveen
-
-Support e-mail          :       For any queries, reach out to us on "techsupport_vm@maven-silicon.com" 
-
-Version                 :       1.0
-*********************************************************************************************/
  module uart_rx(
   		input PCLK,
   		input PRESETn,
